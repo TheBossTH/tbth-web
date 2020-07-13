@@ -7,12 +7,110 @@
     <title>TBTH</title>
   </head>
   <body class="bg-pink-200">
+    <nav class="flex items-center justify-between flex-wrap bg-pink-400 p-6">
+      <div class="flex items-center flex-shrink-0 text-white mr-6">
+        <svg
+          class="fill-current h-8 w-8 mr-2"
+          width="54"
+          height="54"
+          viewBox="0 0 54 54"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"
+          />
+        </svg>
+        <span class="font-semibold text-xl tracking-tight">TBTH</span>
+      </div>
+      <div class="block lg:hidden">
+        <button
+          class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+        >
+          <svg
+            class="fill-current h-3 w-3"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </svg>
+        </button>
+      </div>
+      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <div class="text-sm lg:flex-grow">
+          <a
+            href="#responsive-header"
+            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+          >
+            Docs
+          </a>
+          <a
+            href="#responsive-header"
+            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+          >
+            Examples
+          </a>
+          <a
+            href="#responsive-header"
+            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
+          >
+            Blog
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.facebook.com/TheBoSsTH"
+            class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-white hover:bg-blue-500 mt-4 lg:mt-0"
+            >Facebook</a
+          >
+        </div>
+      </div>
+    </nav>
+
     <div class="container mx-auto">
       <div
-        class="mt-5 p-6 bg-pink-400 shadow-xl rounded-lg border border-white"
+        class="mt-5 p-6 bg-pink-400 shadow-xl rounded-lg border border-white hover:bg-pink-300"
       >
-        <h1 class="text-5xl text-white">Hello Tailwind</h1>
-        <p class="text-white">This is my first tailwind</p>
+        <h1 class="font-bold text-5xl text-white">Hello Tailwind</h1>
+        <p class="text-white">First use of the tailwind</p>
+      </div>
+      <div class="flex mb-4">
+        <div class="w-1/2 max-w-sm rounded mt-5 overflow-hidden shadow-lg">
+          <img
+            class="w-full"
+            src="https://scontent.fbkk2-8.fna.fbcdn.net/v/t31.0-8/p960x960/15675703_1553332111348897_6623488884345809144_o.jpg?_nc_cat=103&_nc_sid=85a577&_nc_eui2=AeG4VaSuG4ymTlhFb0pR9FSGAFLlabw3PxAAUuVpvDc_ELG8gTc-0OH2fubMCJcU3UWC8zjUrqq1k9UiROR51kz6&_nc_ohc=b-BBWUA-9_0AX_VRxmM&_nc_ht=scontent.fbkk2-8.fna&_nc_tp=6&oh=2520bed837a3ab91d0833d902ac77004&oe=5F320732"
+            alt="Cute Cat"
+          />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div class="px-6 py-4">
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+              >#photography</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+              >#travel</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
+              >#winter</span
+            >
+          </div>
+        </div>
+        <div
+          class="w-1/2 mt-5 ml-5 inline-block bg-gray-200 rounded-l-lg px-3 py-1 text-sm font-semibold text-2xl text-gray-700"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
+          quia, nulla! Maiores et perferendis eaque, exercitationem praesentium
+          nihil.
+        </div>
       </div>
     </div>
   </body>
