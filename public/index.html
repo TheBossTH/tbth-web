@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-black">
+<html lang="en" style="background: black">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/icon.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="TBTH website. I'm just a passing-through Programmer. Remember that!"
@@ -12,85 +14,26 @@
       content="Kittidet, Cheavachirakul, TheBossTH, Thel3ossTH, TBTH, Kittidet Cheavachirakul"
     />
     <meta name="author" content="Kittidet Cheavachirakul" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>TBTH</title>
-    <link rel="icon" href="img/icon.jpg" />
-    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
     <script
       src="https://kit.fontawesome.com/8324ff6b85.js"
       crossorigin="anonymous"
     ></script>
-  </head>
-  <body
-    class="bg-cover bg-no-repeat bg-center h-screen opacity-75"
-    style="
-      box-shadow: inset 0 0 500px black;
-      background-image: url(img/bg1.webp);
-    "
-  >
-    <div
-      class="absolute transform -translate-x-1/2 -translate-y-1/2"
-      style="top: 50%; left: 50%"
-    >
-      <img src="img/tbth.png" alt="TBTH" />
-      <center>
-        <div class="text-4xl">
-          <button
-            title="Facebook"
-            class="transition duration-500 ease-in-out opacity-75 hover:text-blue-500 transform hover:scale-125 hover:opacity-100"
-          >
-            <a href="https://www.facebook.com/TheBoSsTH/"
-              ><i class="fab fa-facebook-square"></i
-            ></a>
-          </button>
-
-          <button
-            title="Instagram"
-            class="transition duration-500 ease-in-out opacity-75 hover:text-pink-500 transform hover:scale-125 hover:opacity-100"
-          >
-            <a href="https://www.instagram.com/thel3ossth/"
-              ><i class="fab fa-instagram-square"></i
-            ></a>
-          </button>
-
-          <button
-            title="Twitter"
-            class="transition duration-500 ease-in-out opacity-75 hover:text-indigo-500 transform hover:scale-125 hover:opacity-100"
-          >
-            <a href="https://twitter.com/Thel3ossTH"
-              ><i class="fab fa-twitter-square"></i
-            ></a>
-          </button>
-
-          <button
-            title="Github"
-            class="transition duration-500 ease-in-out opacity-75 hover:text-white transform hover:scale-125 hover:opacity-100"
-          >
-            <a href="https://github.com/TheBossTH"
-              ><i class="fab fa-github-square"></i
-            ></a>
-          </button>
-
-          <button
-            title="Steam"
-            class="transition duration-500 ease-in-out opacity-75 hover:text-purple-500 transform hover:scale-125 hover:opacity-100"
-          >
-            <a href="https://steamcommunity.com/id/TheBoSsTH"
-              ><i class="fab fa-steam-square"></i
-            ></a>
-          </button>
-        </div>
-      </center>
-    </div>
-    <div
-      class="absolute transform -translate-x-1/2 -translate-y-1/2"
-      style="bottom: 3%; right: 0%"
-    >
-      <label class="font-medium">Picture By : </label
-      ><button
-        class="font-bold transition duration-500 ease-in-out hover:text-white transform hover:translate-x-1 hover:scale-125 hover:opacity-100"
-      >
-        <a href="https://www.pixiv.net/users/6657532">QuAn_</a>
-      </button>
-    </div>
   </body>
 </html>
