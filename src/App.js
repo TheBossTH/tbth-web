@@ -3,6 +3,7 @@ import "./App.css";
 import tbth from "./images/tbth.png";
 import bg from "./images/bg.webp";
 import Button from "./components/Button";
+import FadeIn from "react-fade-in";
 
 function App() {
   return (
@@ -14,45 +15,48 @@ function App() {
           backgroundImage: `url(${bg})`,
         }}
       ></div>
+
       <div
         className="absolute transform -translate-x-1/2 -translate-y-1/2"
         style={{ top: "50%", left: "50%" }}
       >
-        <img src={tbth} alt="TBTH" />
-        <center>
-          <div className="text-4xl">
-            <Button
-              title={"Facebook"}
-              color={"blue-500"}
-              icon={"facebook"}
-              link={"https://www.facebook.com/TheBoSsTH/"}
-            />
-            <Button
-              title={"Instagram"}
-              color={"pink-500"}
-              icon={"instagram"}
-              link={"https://www.instagram.com/thel3ossth/"}
-            />
-            <Button
-              title={"Twitter"}
-              color={"indigo-500"}
-              icon={"twitter"}
-              link={"https://twitter.com/Thel3ossTH"}
-            />
-            <Button
-              title={"Github"}
-              color={"white"}
-              icon={"github"}
-              link={"https://github.com/TheBossTH"}
-            />
-            <Button
-              title={"Steam"}
-              color={"purple-500"}
-              icon={"steam"}
-              link={"https://steamcommunity.com/id/TheBoSsTH"}
-            />
-          </div>
-        </center>
+        <FadeIn>
+          <img src={tbth} alt="TBTH" />
+          <center>
+            <div className="text-4xl">
+              <Button
+                title={"Facebook"}
+                color={"blue-500"}
+                icon={"facebook"}
+                link={"https://www.facebook.com/TheBoSsTH/"}
+              />
+              <Button
+                title={"Instagram"}
+                color={"pink-500"}
+                icon={"instagram"}
+                link={"https://www.instagram.com/thel3ossth/"}
+              />
+              <Button
+                title={"Twitter"}
+                color={"indigo-500"}
+                icon={"twitter"}
+                link={"https://twitter.com/Thel3ossTH"}
+              />
+              <Button
+                title={"Github"}
+                color={"white"}
+                icon={"github"}
+                link={"https://github.com/TheBossTH"}
+              />
+              <Button
+                title={"Steam"}
+                color={"purple-500"}
+                icon={"steam"}
+                link={"https://steamcommunity.com/id/TheBoSsTH"}
+              />
+            </div>
+          </center>
+        </FadeIn>
       </div>
       <div
         className="absolute transform -translate-x-1/2 -translate-y-1/2"
