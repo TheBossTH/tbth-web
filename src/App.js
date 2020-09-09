@@ -60,7 +60,13 @@ function App() {
       >
         <label className="font-medium">Picture By : </label>
         <button className="font-bold transition duration-500 ease-in-out hover:text-white transform hover:translate-x-1 hover:scale-125 hover:opacity-100">
-          <a href="https://www.pixiv.net/users/6657532">QuAn_</a>
+          <a
+            href="https://www.pixiv.net/users/6657532"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            QuAn_
+          </a>
         </button>
       </div>
     </div>
