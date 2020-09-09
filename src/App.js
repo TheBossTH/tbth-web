@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import tbth from "./images/tbth.png";
-import bg from "./images/bg1.webp";
+import bg from "./images/bg.webp";
 import Button from "./components/Button";
 
 function App() {
