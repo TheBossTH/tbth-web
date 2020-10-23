@@ -14,14 +14,15 @@ function App() {
           boxShadow: "inset 0 0 500px black",
           backgroundImage: `url(${bg})`,
         }}
-      ></div>
+      >
+      </div>
 
       <div
         className="absolute transform -translate-x-1/2 -translate-y-1/2"
         style={{ top: "50%", left: "50%" }}
       >
         <FadeIn>
-          <img src={tbth} alt="TBTH" />
+          <img src={tbth} alt="TBTH" loading="lazy"/>
           <center>
             <div className="text-4xl">
               <Button
